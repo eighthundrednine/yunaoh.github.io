@@ -1,7 +1,7 @@
-name:         "Site Name"
-description:  "Site description"
+name:         "A Better Plea"
+description:  "A Blog By Yuna Oh"
 
-# typekit_id: yourKitID
+typekit_id: ynq4gxz
 
 # source:      .
 # destination: ./_site

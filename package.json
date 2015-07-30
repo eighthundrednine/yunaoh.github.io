@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/macbleser/jekyll-gulp-sass-foundation.git"
+    "url": "https://github.com/yunaoh/yunaoh.github.io.git"
   },
   "keywords": [
     "Jekyll",
@@ -36,10 +36,10 @@
     "Foundation",
     "BrowserSync"
   ],
-  "author": "Mac Bleser",
+  "author": "Yuna Oh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/macbleser/jekyll-gulp-sass-foundation/issues"
+    "url": "https://github.com/yunaoh/yunaoh.github.io/issues"
   },
-  "homepage": "https://github.com/macbleser/jekyll-gulp-sass-foundation"
+  "homepage": "https://github.com/yunaoh/yunaoh.github.io/"
 }
