@@ -1,0 +1,18 @@
+{% include head.html %}
+
+{% include components/top-bar.html %}
+
+<div class="page page--{{ page.layout }}">
+  <div class="container">
+    <div class="row">
+      <div class="small-12 columns">
+        <br><br>
+        <h2>{{ page.title }}</h2>
+        <hr>
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include foot.html %}
