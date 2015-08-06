@@ -6,6 +6,10 @@
 @import "grid";
 @import "buttons";
 
+
+$custom-sans-serif-font: "brandon-grotesque", sans-serif;
+
+
 //
 // Top Bar Variables
 //
@@ -39,7 +43,7 @@ $topbar-link-color-hover: $white !default;
 $topbar-link-color-active: $white !default;
 $topbar-link-color-active-hover: $white !default;
 $topbar-link-weight: $font-weight-normal !default;
-$topbar-link-font-size: rem-calc(13) !default;
+$topbar-link-font-size: rem-calc(19) !default;
 $topbar-link-hover-lightness: -10% !default; // Darken by 10%
 $topbar-link-bg: $topbar-bg !default;
 $topbar-link-bg-hover: #272727 !default;

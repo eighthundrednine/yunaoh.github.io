@@ -2,43 +2,6 @@
 /******* HOME - SCSS *************/
 /*********************************/
 
-body {
-
-  background-color: $custom-gray;
-}
-
-.header{ 
-  background: url(../img/daisies.jpg )no-repeat 50% 55%;
-  background-size: cover;  
-  text-align: center;
-
-  @media #{ $small-only } {
-    min-height: 150px;
-  }
-
-  @media #{ $medium-only } {
-    min-height: 180px;
-  } 
-
-  @media #{ $medium-up } {
-    margin-top: 20px;
-  }
-
-  @media #{ $large-up} {
-    min-height: 210px;
-  } 
-
-  .white-transparent-bg {
-    background: rgba(255,255,255,0.4);
-    height: 50px;
-    position: relative;
-    top: 50px;
-  }
-  h1 {
-    font-family: $custom-sans-serif-font;
-  }
-}
-
 .blog {
   display: flex;
   flex-flow: column wrap;
@@ -53,7 +16,6 @@ body {
         border-top-right-radius: 6px;
 
         img{
-          display: block;
           margin: auto; 
           border-top-left-radius: 6px;
           border-top-right-radius: 6px;
@@ -66,13 +28,7 @@ body {
       a.post-title {
         font-family: 'Kepler-std-extended-display';
         color: $pink;
-        font-size: 1.5em;
-        @media #{ $medium-only} {
-          font-size: 2em;
-        }
-        @media #{ $large-up } {
-          font-size: 3em;
-        }
+        font-size: rem-calc(45); 
       }
     }
   }
@@ -108,22 +64,3 @@ body {
 }
 
 
-/*********************************/
-/******* FOOTER CODE GOES HERE ***/
-/*********************************/
-
-.footer {
-  display:flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  min-height: 200px;
-  background-color: $pink;
-  ul {
-    list-style-type: none;
-  }
-  .contact-info {
-    // filler
-  }
-  .contact-form {
-  }
-}

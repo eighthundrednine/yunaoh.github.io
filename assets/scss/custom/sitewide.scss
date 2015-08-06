@@ -1,0 +1,67 @@
+/*********************************/
+/******* SITEWIDE SCSS ***********/
+/*********************************/
+
+body {
+  background-color: $custom-gray;
+}
+
+/*********************************/
+/******* HEADER CODE GOES HERE ***/
+/*********************************/
+
+.header{ 
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background: url(../img/daisies.jpg )no-repeat 50% 55%;
+  background-size: cover;  
+  text-align: center;
+
+  @media #{ $small-only } {
+    min-height: 150px;
+  }
+
+  @media #{ $medium-only } {
+    min-height: 180px;
+  } 
+
+  @media #{ $medium-up } {
+    margin-top: 20px;
+  }
+
+  @media #{ $large-up} {
+    min-height: 210px;
+  } 
+
+  .white-transparent-bg {
+    background: rgba(255,255,255,0.4);
+    height: 50px;
+    position: relative;
+    top: 75px;
+  }
+  h1 {
+    font-family: $custom-sans-serif-font;
+  }
+}
+
+
+
+/*********************************/
+/******* FOOTER CODE GOES HERE ***/
+/*********************************/
+
+.footer {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  min-height: 200px;
+  background-color: $pink;
+  ul {
+    list-style-type: none;
+  }
+  .contact-info {
+    // filler
+  }
+  .contact-form {
+  }
+}

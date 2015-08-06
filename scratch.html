@@ -1,0 +1,22 @@
+---
+layout: default
+title: Home
+---
+
+<div class="row">
+  <div class="small-4 columns">
+    <div class="image-wrapper overlay-fade-in">
+      <img src="../post-images/{{ post.image }}" />
+      <div class="image-overlay-content">
+        {% if post.photographer %}
+          <h2>Image taken by {{ post.photographer }}</h2>
+        {% endif %}
+        <p>
+          <a class="mtl photo-link button radius" href="{{ post.url }}">view post</a>
+        </p>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>

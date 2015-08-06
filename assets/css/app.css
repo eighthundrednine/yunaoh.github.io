@@ -1,4 +1,27 @@
 @charset "UTF-8";
+section.top-bar-section-small {
+  display: inline-block;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.btr {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.bbr {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
 .subtle {
   color: #6F6F6F;
 }
@@ -11,89 +34,6 @@
 /*********************************/
 /******* EFFECTS *****************/
 /*********************************/
-.hovereffect {
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
-}
-
-.hovereffect .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: all 0.4s ease-in-out;
-}
-
-.hovereffect img {
-  display: block;
-  position: relative;
-  transition: all .4s linear;
-}
-
-.hovereffect h2 {
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
-  position: relative;
-  font-size: 17px;
-  background: rgba(0, 0, 0, 0.6);
-  -webkit-transform: translatey(-100px);
-  -ms-transform: translatey(-100px);
-  transform: translatey(-100px);
-  transition: all .2s ease-in-out;
-  padding: 10px;
-}
-
-.hovereffect a.info {
-  text-decoration: none;
-  display: inline-block;
-  text-transform: uppercase;
-  color: #fff;
-  border: 1px solid #fff;
-  background-color: transparent;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  transition: all .2s ease-in-out;
-  margin: 50px 0 0;
-  padding: 7px 14px;
-}
-
-.hovereffect a.info:hover {
-  box-shadow: 0 0 5px #fff;
-}
-
-.hovereffect:hover img {
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-.hovereffect:hover .overlay {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-
-.hovereffect:hover h2, .hovereffect:hover a.info {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -ms-transform: translatey(0);
-  -webkit-transform: translatey(0);
-  transform: translatey(0);
-}
-
-.hovereffect:hover a.info {
-  transition-delay: .2s;
-}
-
 /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -6729,12 +6669,12 @@ meta.foundation-mq-topbar {
   padding: 12px 0 12px 0;
   padding-left: 15px;
   font-family: "brandon-grotesque", sans-serif;
-  font-size: 0.8125rem;
+  font-size: 1.1875rem;
   font-weight: normal;
   text-transform: none;
 }
 .top-bar-section ul li > a.button {
-  font-size: 0.8125rem;
+  font-size: 1.1875rem;
   padding-right: 15px;
   padding-left: 15px;
   background-color: #ffc0c0;
@@ -6781,7 +6721,7 @@ meta.foundation-mq-topbar {
   color: #fff;
 }
 .top-bar-section ul li > button {
-  font-size: 0.8125rem;
+  font-size: 1.1875rem;
   padding-right: 15px;
   padding-left: 15px;
   background-color: #ffc0c0;
@@ -8276,45 +8216,6 @@ th.hide-for-touch {
 /*********************************/
 /******* HOME - SCSS *************/
 /*********************************/
-body {
-  background-color: #e7e7e7;
-}
-
-.header {
-  background: url(../img/daisies.jpg) no-repeat 50% 55%;
-  background-size: cover;
-  text-align: center;
-}
-@media only screen and (max-width: 40em) {
-  .header {
-    min-height: 150px;
-  }
-}
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  .header {
-    min-height: 180px;
-  }
-}
-@media only screen and (min-width: 40.063em) {
-  .header {
-    margin-top: 20px;
-  }
-}
-@media only screen and (min-width: 64.063em) {
-  .header {
-    min-height: 210px;
-  }
-}
-.header .white-transparent-bg {
-  background: rgba(255, 255, 255, 0.4);
-  height: 50px;
-  position: relative;
-  top: 50px;
-}
-.header h1 {
-  font-family: "brandon-grotesque", sans-serif;
-}
-
 .blog {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8336,7 +8237,6 @@ body {
   border-top-right-radius: 6px;
 }
 .blog ul li.post-has-image img {
-  display: block;
   margin: auto;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
@@ -8345,17 +8245,7 @@ body {
 .blog ul li a.post-title {
   font-family: 'Kepler-std-extended-display';
   color: #ffc0c0;
-  font-size: 1.5em;
-}
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  .blog ul li a.post-title {
-    font-size: 2em;
-  }
-}
-@media only screen and (min-width: 64.063em) {
-  .blog ul li a.post-title {
-    font-size: 3em;
-  }
+  font-size: 2.8125rem;
 }
 .blog div.overlay {
   display: -webkit-flex;
@@ -8397,6 +8287,56 @@ body {
 }
 
 /*********************************/
+/******* /about.html SCSS ********/
+/*********************************/
+/*********************************/
+/******* SITEWIDE SCSS ***********/
+/*********************************/
+body {
+  background-color: #e7e7e7;
+}
+
+/*********************************/
+/******* HEADER CODE GOES HERE ***/
+/*********************************/
+.header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background: url(../img/daisies.jpg) no-repeat 50% 55%;
+  background-size: cover;
+  text-align: center;
+}
+@media only screen and (max-width: 40em) {
+  .header {
+    min-height: 150px;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .header {
+    min-height: 180px;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  .header {
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  .header {
+    min-height: 210px;
+  }
+}
+.header .white-transparent-bg {
+  background: rgba(255, 255, 255, 0.4);
+  height: 50px;
+  position: relative;
+  top: 75px;
+}
+.header h1 {
+  font-family: "brandon-grotesque", sans-serif;
+}
+
+/*********************************/
 /******* FOOTER CODE GOES HERE ***/
 /*********************************/
 .footer {
@@ -8414,4 +8354,225 @@ body {
 }
 .footer ul {
   list-style-type: none;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.image-overlay-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.overlay-fade-in p {
+  letter-spacing: 0.15em;
+  color: #f4f4f4;
+  font-size: 28px;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.overlay-fade-in img {
+  transition: all 0.2s linear;
+}
+
+.overlay-fade-in .image-overlay-content {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease-in-out;
+}
+
+.overlay-fade-in h2 {
+  color: #f2f2f2;
+  font-size: 1.8rem;
+  margin-top: 40%;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.overlay-fade-in .button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #FFF;
+  color: #222;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000;
+  position: relative;
+  border: 1px solid #999;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.overlay-fade-in .button:hover {
+  box-shadow: 0 0 5px #000;
+}
+
+.overlay-fade-in:hover img {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.overlay-fade-in:hover .image-overlay-content {
+  opacity: 1;
+}
+
+.overlay-fade-in:hover h2, .overlay-fade-in p, .overlay-fade-in .button {
+  opacity: 1;
+}
+
+.overlay-fade-in:hover p {
+  transition-delay: 0.1s;
+}
+
+.overlay-fade-in:hover .button {
+  transition-delay: 0.2s;
+}
+
+.overlay-slide-in-left img {
+  transition: all 0.3s ease-in-out;
+}
+
+.overlay-slide-in-left .image-overlay-content {
+  background-image: url(http://www.awwwards.com/awards/images/2015/04/pattern.jpg);
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-transform: translateX(-110%);
+      -ms-transform: translateX(-110%);
+          transform: translateX(-110%);
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0 7px #ccc;
+}
+
+.overlay-slide-in-left h2 {
+  font-size: 1.8rem;
+  background: rgba(255, 255, 255, 0.7);
+  margin-top: 40%;
+  color: #000;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.overlay-slide-in-left p {
+  opacity: 0;
+  color: #333;
+  transition: all 0.2s linear;
+}
+
+.overlay-slide-in-left .button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000;
+  position: relative;
+  border-radius: 7px;
+}
+
+.overlay-slide-in-left .button:hover {
+  background-color: #444;
+}
+
+.overlay-slide-in-left:hover .image-overlay-content {
+  -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.overlay-slide-in-left:hover img {
+  -webkit-transform: translateX(80%);
+      -ms-transform: translateX(80%);
+          transform: translateX(80%);
+  transition-delay: 0.1s;
+}
+
+.overlay-slide-in-left:hover p {
+  opacity: 1;
+  transition-delay: 0.4s;
+}
+
+.overlay-fade-in-new-background .button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0 0 1px #000;
+  position: relative;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.overlay-fade-in-new-background .button:hover {
+  box-shadow: 0 0 5px #fff;
+  background-color: #222;
+}
+
+.overlay-fade-in-new-background p {
+  font-size: 28px;
+}
+
+.overlay-fade-in-new-background .image-overlay-content {
+  opacity: 0;
+  background-image: url(http://subtlepatterns.com/patterns/gplaypattern.png);
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.4s ease-in-out;
+}
+
+.overlay-fade-in-new-background h2 {
+  color: #000;
+  font-size: 1.6rem;
+  margin-top: 30%;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.overlay-fade-in-new-background p {
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.overlay-fade-in-new-background img {
+  transition: all 0.2s ease-in-out;
+}
+
+.overlay-fade-in-new-background:hover img {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.overlay-fade-in-new-background:hover .image-overlay-content {
+  opacity: 1;
+}
+
+.overlay-fade-in-new-background:hover h2, .overlay-fade-in-new-background p, .overlay-fade-in-new-background .button {
+  opacity: 1;
+}
+
+.overlay-fade-in-new-background:hover p {
+  transition-delay: 0.1s;
+}
+
+.overlay-fade-in-new-background:hover .button {
+  transition-delay: 0.2s;
 }
