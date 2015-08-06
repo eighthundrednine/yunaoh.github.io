@@ -1,24 +1,38 @@
 ---
 layout: default
-title: A 
+title: Home
 ---
-<br>
-
-{{ site.title }}
-
-<p>Welcome to your new Jekyll site.</p>
-
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea aliquam tempore nostrum, voluptatibus tempora excepturi esse sit ducimus accusamus repellat, harum quia ipsam, ex! Quas aperiam cumque sunt ea?</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea aliquam tempore nostrum, voluptatibus tempora excepturi esse sit ducimus accusamus repellat, harum quia ipsam, ex! Quas aperiam cumque sunt ea?</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea aliquam tempore nostrum, voluptatibus tempora excepturi esse sit ducimus accusamus repellat, harum quia ipsam, ex! Quas aperiam cumque sunt ea?</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea aliquam tempore nostrum, voluptatibus tempora excepturi esse sit ducimus accusamus repellat, harum quia ipsam, ex! Quas aperiam cumque sunt ea?</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea aliquam tempore nostrum, voluptatibus tempora excepturi esse sit ducimus accusamus repellat, harum quia ipsam, ex! Quas aperiam cumque sunt ea?</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea aliquam tempore nostrum, voluptatibus tempora excepturi esse sit ducimus accusamus repellat, harum quia ipsam, ex! Quas aperiam cumque sunt ea?</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea aliquam tempore nostrum, voluptatibus tempora excepturi esse sit ducimus accusamus repellat, harum quia ipsam, ex! Quas aperiam cumque sunt ea?</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea aliquam tempore nostrum, voluptatibus tempora excepturi esse sit ducimus accusamus repellat, harum quia ipsam, ex! Quas aperiam cumque sunt ea?</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea aliquam tempore nostrum, voluptatibus tempora excepturi esse sit ducimus accusamus repellat, harum quia ipsam, ex! Quas aperiam cumque sunt ea?</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea aliquam tempore nostrum, voluptatibus tempora excepturi esse sit ducimus accusamus repellat, harum quia ipsam, ex! Quas aperiam cumque sunt ea?</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea aliquam tempore nostrum, voluptatibus tempora excepturi esse sit ducimus accusamus repellat, harum quia ipsam, ex! Quas aperiam cumque sunt ea?</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea aliquam tempore nostrum, voluptatibus tempora excepturi esse sit ducimus accusamus repellat, harum quia ipsam, ex! Quas aperiam cumque sunt ea?</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea aliquam tempore nostrum, voluptatibus tempora excepturi esse sit ducimus accusamus repellat, harum quia ipsam, ex! Quas aperiam cumque sunt ea?</p>
+<div class="header">
+  <div class="white-transparent-bg">
+    <h1 class="mvn">a better plea</h1>
+  </div>
+</div>
+<!--Blog Posts -->
+<div class="row">
+  <div class="small-12 columns small-centered">
+    <div class="box mtm text-center">
+      <h1>latest posts</h1>
+    </div>
+    <div class="blog">
+      <ul class="pvn phn mvn mhn">
+        {% for post in site.posts %}
+          {% if post.image %}
+          <li class="post-has-image mbn ptn box">
+            <img src="/post-images/{{ post.image }}" alt="">
+          <li>
+          <li class="mbm phs box">
+          {% else %}
+          <li class="mvm phs box">
+          {% endif %}
+            <a class="post-title"  href="{{ post.url }}"> {{ post.title }} </a>
+            <br>
+            <em>by</em> Yuna Oh <em> on </em> {{ post.date | date: '%B %d, %Y' }}
+            <br>
+            <p>{{ post.excerpt }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <!--Blog End -->
+  </div>
+</div>
