@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Welcome to my blog!"
+title:  "Hello, my Chicken Friends"
 date:   2014-04-20 09:11:03
 categories: jekyll update
-image: daisies.jpg
+image: cara.jpg
 author: Yuna Oh
 photographer: UNKNOWN
 ---

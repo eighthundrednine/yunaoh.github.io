@@ -17,22 +17,41 @@ title: Home
       <ul class="pvn phn mvn mhn">
         {% for post in site.posts %}
           {% if post.image %}
-          <li class="post-has-image mbn ptn box">
-            <img src="/post-images/{{ post.image }}" alt="">
-          <li>
-          <li class="mbm phs box">
-          {% else %}
-          <li class="mvm phs box">
-          {% endif %}
-            <a class="post-title"  href="{{ post.url }}"> {{ post.title }} </a>
-            <br>
-            <em>by</em> Yuna Oh <em> on </em> {{ post.date | date: '%B %d, %Y' }}
-            <br>
-            <p>{{ post.excerpt }}</p>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <!--Blog End -->
-  </div>
-</div>
+            <li class="post-has-image mbn ptn box">
+              <div class="hovereffect">
+                <img class="img-responsive" src="/post-images/{{ post.image }}" alt="">
+                <div class="overlay">
+                  {% if post.photographer %}
+                    <h2>Image taken by {{ post.photographer }}</h2>
+                  {% endif %}
+                  <p>
+                    <a class="mtl photo-link button radius" href="{{ post.url }}">view post</a>
+                  </p>
+                </div>
+              </div>
+              <!--End of Hovereffect -->
+              <!--Start of blog posts -->
+              <li>
+                <li class="mbm phm box">
+                {% else %}
+                  <li class="mvm phm box">
+                  {% endif %}
+                  <a class="post-title"
+                  href="{{ post.url }}"> {{ post.title }} </a>
+                  <br>
+                  <div class="blurb">
+                    <em>by</em>
+                    {{ post.author }}
+                    <em> on </em>
+                    {{ post.date | date: '%B %d, %Y' }}
+                  </div>
+                  <br>
+                  <hr class="hr-small show-for-small-only">
+                  <p>{{ post.excerpt }}</p>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+          <!--Blog End -->
+        </div>
+      </div>

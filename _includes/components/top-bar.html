@@ -14,12 +14,13 @@
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/contact">Contact</a></li>
-          <li class="has-dropdown"><a href="#">Second Layer</a>
+          <li class="has-dropdown"><a href="">Recent Blog Posts</a>
           <ul class="dropdown">
-            <li><a href="/drupal">Drupal Elements</a></li>
-            <li><a href="/drupal">Drupal Elements</a></li>
-            <li><a href="/drupal">Drupal Elements</a></li>
-            <li><a href="/drupal">Drupal Elements</a></li>
+            {% for post in site.posts limit:4 %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
           </ul>
         </li>
       </li>
