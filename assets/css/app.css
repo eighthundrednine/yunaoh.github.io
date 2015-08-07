@@ -12,6 +12,13 @@ section.top-bar-section-small {
           flex-flow: row wrap;
 }
 
+.full-width {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial !important;
+}
+
 .btr {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
@@ -28,6 +35,11 @@ section.top-bar-section-small {
 
 .hr-small {
   width: 100px;
+  margin: auto;
+}
+
+.hr-medium {
+  width: 300px;
   margin: auto;
 }
 
@@ -6768,8 +6780,8 @@ meta.foundation-mq-topbar {
   color: #fff;
 }
 .top-bar-section ul li:hover:not(.has-form) > a {
-  background-color: #555555;
-  background: #272727;
+  background-color: #ffa7a7;
+  background: #ff8d8d;
   color: #fff;
 }
 .top-bar-section ul li.active > a {
@@ -6925,8 +6937,8 @@ meta.foundation-mq-topbar {
     display: none;
   }
   .top-bar-section li.hover > a:not(.button) {
-    background-color: #555555;
-    background: #272727;
+    background-color: #ffa7a7;
+    background: #ff8d8d;
     color: #fff;
   }
   .top-bar-section li:not(.has-form) a:not(.button) {
@@ -6935,8 +6947,8 @@ meta.foundation-mq-topbar {
     background: #ffc0c0;
   }
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background-color: #555555;
-    background: #272727;
+    background-color: #ffa7a7;
+    background: #ff8d8d;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 15px;
@@ -7018,8 +7030,8 @@ meta.foundation-mq-topbar {
   }
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
     color: #fff;
-    background-color: #555555;
-    background: #272727;
+    background-color: #ffa7a7;
+    background: #ff8d8d;
   }
   .top-bar-section .dropdown li label {
     white-space: nowrap;
@@ -7058,8 +7070,8 @@ meta.foundation-mq-topbar {
   }
 
   .no-js .top-bar-section ul li:hover > a {
-    background-color: #555555;
-    background: #272727;
+    background-color: #ffa7a7;
+    background: #ff8d8d;
     color: #fff;
   }
   .no-js .top-bar-section ul li:active > a {
@@ -8240,7 +8252,7 @@ th.hide-for-touch {
   margin: auto;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-  background-color: #e7e7e7;
+  background-color: #ececec;
 }
 .blog ul li a.post-title {
   font-family: 'Kepler-std-extended-display';
@@ -8276,7 +8288,7 @@ th.hide-for-touch {
 }
 
 .box {
-  background-color: #fdfdfd;
+  background-color: white;
   width: 80%;
   margin: auto;
   border-bottom-left-radius: 6px;
@@ -8293,7 +8305,7 @@ th.hide-for-touch {
 /******* SITEWIDE SCSS ***********/
 /*********************************/
 body {
-  background-color: #e7e7e7;
+  background-color: #ececec;
 }
 
 /*********************************/
@@ -8302,7 +8314,7 @@ body {
 .header {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-  background: url(../img/daisies.jpg) no-repeat 50% 55%;
+  background: url(../img/daisies-gray.jpg) no-repeat 50% 35%;
   background-size: cover;
   text-align: center;
 }
@@ -8328,12 +8340,14 @@ body {
 }
 .header .white-transparent-bg {
   background: rgba(255, 255, 255, 0.4);
-  height: 50px;
+  height: 60px;
   position: relative;
-  top: 75px;
+  top: 70px;
 }
 .header h1 {
   font-family: "brandon-grotesque", sans-serif;
+  color: #ffc0c0;
+  text-shadow: 1px 1px #D4A2A2;
 }
 
 /*********************************/

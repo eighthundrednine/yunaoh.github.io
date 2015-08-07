@@ -10,11 +10,11 @@
     list-style-type: none;
     li {
       &.post-has-image {
+        // Controls the border radiuses.
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
         border-top-left-radius: 6px;
         border-top-right-radius: 6px;
-
         img{
           margin: auto; 
           border-top-left-radius: 6px;
@@ -51,9 +51,10 @@
   }
 }
 
+// Boxifies the posts
 .box {
   // background-color: $white-gray;
-  background-color: $white-gray;
+  background-color: white;
   width: 80%;
   margin: auto;
   border-bottom-left-radius: 6px;

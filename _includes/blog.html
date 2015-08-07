@@ -1,0 +1,52 @@
+<!--the blog section of the home page -->
+<div class="blog">
+  <ul class="pvn phn mvn mhn">
+    {% for post in site.posts %}
+      <!--If the post has an image -->
+      {% if post.image %}
+        <li class="post-has-image mbn ptn box">
+          <div class="image-wrapper overlay-fade-in">
+            <!-- Post Image -->
+            <img src="../post-images/{{ post.image }}" />
+            <!--Overlay -->
+            <div class="image-overlay-content">
+              <!--Show photographers name -->
+              {% if post.photographer %}
+                <h2>
+                Image taken by {{ post.photographer }}
+                </h2>
+              {% endif %}
+              <!--View Post Button -->
+              <p>
+                <a class="mtl photo-link button radius" href="{{ post.url }}">view post</a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <!--End of Hovereffect -->
+        <!--Start of blog posts -->
+        <li class="mbm phm ptn box">
+        {% else %}
+          <!--If it doesn't have a post image -->
+          <li class="mvm phm box btr">
+          {% endif %}
+          <a class="post-title"
+          href="{{ post.url }}"> {{ post.title }} </a>
+          <br>
+          <div class="blurb">
+            <em>by</em>
+            {{ post.author }}
+            <em> on </em>
+            {{ post.date | date: '%B %d, %Y' }}
+          </div>
+          <br>
+          <hr class="hr-small show-for-small-only">
+          <p>{{ post.excerpt }}</p>
+          <a class="button expand" href="{{ post.url }}">
+            keep reading
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <!--Blog End -->
