@@ -12,7 +12,14 @@ section.top-bar-section-small {
 // KEY UTILITIES
 .flex-container {
   display: flex;
+}
+
+.flex-row{
   flex-flow: row wrap;
+}
+
+.flex-column {
+  flex-flow: column wrap;
 }
 
 .full-width {

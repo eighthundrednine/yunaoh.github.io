@@ -7,7 +7,7 @@
         <li class="post-has-image mbn ptn box">
           <div class="image-wrapper overlay-fade-in">
             <!-- Post Image -->
-            <img src="../post-images/{{ post.image }}" />
+            <img class="mbl" src="../post-images/{{ post.image }}" />
             <!--Overlay -->
             <div class="image-overlay-content">
               <!--Show photographers name -->
@@ -28,12 +28,12 @@
         <li class="mbm phm ptn box">
         {% else %}
           <!--If it doesn't have a post image -->
-          <li class="mvm phm box btr">
+          <li class="mvs phm box btr text-center">
           {% endif %}
           <a class="post-title"
           href="{{ post.url }}"> {{ post.title }} </a>
           <br>
-          <div class="blurb">
+          <div class="blurb mtl">
             <em>by</em>
             {{ post.author }}
             <em> on </em>
@@ -41,11 +41,13 @@
           </div>
           <br>
           <hr class="hr-small show-for-small-only">
-          <p>{{ post.excerpt }}</p>
+          <div class="post-excerpt">{{ post.excerpt }} </div>
           <a class="button expand" href="{{ post.url }}">
             keep reading
           </a>
         </li>
+
+        <hr class="hr-medium mbl">
       {% endfor %}
     </ul>
   </div>

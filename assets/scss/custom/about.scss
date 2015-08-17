@@ -2,5 +2,32 @@
 /******* /about.html SCSS ********/
 /*********************************/
 
-div.about-image {
+img.about-portrait {
+  width: 150px;
+  margin: auto;
+}
+
+//a flex container
+.about-container {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about-header {
+  padding: 10px;
+}
+
+.about-text {
+  padding: 10px;
+  h1 {
+    font-size: rem-calc(48px);
+    color: $pink;
+  }
+  p.stanza{
+    font-family: 'proxima-nova';
+    font-size: rem-calc(19px);
+    @media #{ $medium-up } {
+      font-size: rem-calc(28px);
+    }
+  }
 }
