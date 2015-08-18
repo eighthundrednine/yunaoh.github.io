@@ -2,7 +2,6 @@
   width: 80%;
   margin: auto;
   height: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.04);
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -44,7 +43,6 @@
   text-transform: uppercase;
   box-shadow: 0 0 1px #000;
   position: relative;
-  border: 1px solid #999;
   opacity: 0;
   transition: all 0.2s ease-in-out; }
   .overlay-fade-in .button:hover {
