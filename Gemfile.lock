@@ -116,8 +116,6 @@ GEM
     redcarpet (3.3.2)
     safe_yaml (1.0.4)
     sass (3.4.16)
-    sass-globbing (1.1.1)
-      sass (>= 3.1)
     terminal-table (1.5.2)
     thread_safe (0.3.5)
     timers (4.0.1)
@@ -139,7 +137,6 @@ DEPENDENCIES
   jekyll (= 2.4.0)
   json
   sass (>= 3.4.3)
-  sass-globbing
 
 BUNDLED WITH
    1.10.6
