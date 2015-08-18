@@ -2,6 +2,17 @@
 /******* POST LAYOUT | SCSS ******/
 /*********************************/
 
-article.post-container {
-  
+.post-content {
+  //.about-text > h1 + p.stanza
+ 
+  p, ul li {
+    font-family: 'proxima-nova';
+    font-size: rem-calc(20px);
+  }
+  h1.post-title {
+    font-size: rem-calc(60px);
+  } 
+  img {
+    max-height: 400px;
+  }
 } 

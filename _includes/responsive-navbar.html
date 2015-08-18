@@ -1,5 +1,11 @@
+<!--If it's the homepage, show on all sizes -->
+{% if is_home %}
 <div class="mvn header">
-  <div class="white-transparent-bg">
+<!--Otherwise, only show on other pages -->
+{% else %}
+<div class="mvn header show-for-medium-up">
+{% endif %}
+  <div class="white-transparent-bg text-right">
     <h1 class="mvn">a better plea</h1>
   </div>
 </div>

@@ -7,13 +7,13 @@
         <li class="post-has-image mbn ptn box">
           <div class="image-wrapper overlay-fade-in">
             <!-- Post Image -->
-            <img class="mbl" src="../post-images/{{ post.image }}" />
+            <img class="mtm mbl" src="../post-images/{{ post.image }}" />
             <!--Overlay -->
             <div class="image-overlay-content">
               <!--Show photographers name -->
               {% if post.photographer %}
                 <h2>
-                Image taken by {{ post.photographer }}
+                Photo Credit: {{ post.photographer }}
                 </h2>
               {% endif %}
               <!--View Post Button -->
@@ -40,9 +40,9 @@
             {{ post.date | date: '%B %d, %Y' }}
           </div>
           <br>
-          <hr class="hr-small show-for-small-only">
+          <hr class="hr-small mbl show-for-small-only">
           <div class="post-excerpt">{{ post.excerpt }} </div>
-          <a class="button expand" href="{{ post.url }}">
+          <a class="button small radius view-post-link mvm" href="{{ post.url }}">
             keep reading
           </a>
         </li>

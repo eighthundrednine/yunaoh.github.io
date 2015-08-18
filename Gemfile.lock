@@ -23,6 +23,8 @@ GEM
     execjs (2.5.2)
     fast-stemmer (1.0.2)
     ffi (1.9.10)
+    font-awesome-sass (4.3.2.1)
+      sass (~> 3.2)
     gemoji (2.1.0)
     github-pages (39)
       RedCloth (= 4.2.9)
@@ -114,6 +116,8 @@ GEM
     redcarpet (3.3.2)
     safe_yaml (1.0.4)
     sass (3.4.16)
+    sass-globbing (1.1.1)
+      sass (>= 3.1)
     terminal-table (1.5.2)
     thread_safe (0.3.5)
     timers (4.0.1)
@@ -130,7 +134,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  font-awesome-sass
   github-pages (= 39)
   jekyll (= 2.4.0)
   json
   sass (>= 3.4.3)
+  sass-globbing
+
+BUNDLED WITH
+   1.10.6

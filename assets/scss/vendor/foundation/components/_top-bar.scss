@@ -31,14 +31,17 @@ $topbar-title-font-size: rem-calc(17) !default;
 // Style the top bar dropdown elements
 $topbar-dropdown-bg: darken($pink, 5%) !default;
 $topbar-dropdown-link-color: $light-gray!default;
-$topbar-dropdown-link-bg: $dark-gray !default;
+$topbar-dropdown-link-bg: darken($pink, 5%) !default;
 $topbar-dropdown-link-weight: $font-weight-normal !default;
-$topbar-dropdown-toggle-size: 5px !default;
+$topbar-dropdown-toggle-size: 7px !default;
 $topbar-dropdown-toggle-color: $white !default;
 $topbar-dropdown-toggle-alpha: 0.4 !default;
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: $light-gray !default;
+
+// $topbar-link-color: $light-gray !default;
+$topbar-link-color: $dark-gray !default;
+
 $topbar-link-color-hover: $white !default;
 $topbar-link-color-active: $white !default;
 $topbar-link-color-active-hover: $white !default;

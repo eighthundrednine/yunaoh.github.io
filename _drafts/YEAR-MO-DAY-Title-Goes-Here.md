@@ -6,6 +6,7 @@ categories:
 image: IMAGEURL.jpg
 author: Yuna Oh
 photographer: UNKNOWN
+excerpt: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat.
 ---
 
 # Header 1

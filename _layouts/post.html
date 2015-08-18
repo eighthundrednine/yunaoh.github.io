@@ -3,14 +3,20 @@ layout: default
 ---
 <article class="post-container">
   {% include responsive-navbar.html %}
-  <div class="row flex-container">
-    <div class="post-content small-8 small-centered columns">
-      <h1>{{ page.title }}</h1>
+  <div class="row">
+    <div class="post-content small-8 small-centered text-center columns">
+      <h1 class="post-title" >{{ page.title }}</h1>
 
       <p class="meta">{{ page.date | date_to_string }}</p>
 
-      {{ content }}
-
+      {% if page.image %}
+      <div class="text-center mvm">
+        <img class="post-image mbl" src="../post-images/{{ page.image }}" alt="">
+      {% endif %}
+      <div class="text-left">
+        {{ content }}
+      </div>
+      <a href="/" class="button small radius mtl">Go Back</a>
     </div>
   </div>
 </article>

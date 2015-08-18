@@ -2,10 +2,11 @@
 layout: default
 title: Home
 ---
+{% assign is_home = true %}
 {% include responsive-navbar.html %}
 <!--Blog Posts -->
 <div class="row full-width">
-  <div class="small-8 columns small-centered">
+  <div class="small-12 medium-9 columns small-centered">
     {% include blog.html %}
 
     <div class="flex-container">
