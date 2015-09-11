@@ -7,9 +7,9 @@ author: yuna
 excerpt: that breathes on earth the air of paradise...
 ---
 #YES!
-hope may with my strong desire keep pace,
-And I be undeluded, unbetrayed:
-For if of our affections none find grace
+hope may with my strong desire keep pace, <br>
+And I be undeluded, unbetrayed: <br>
+For if of our affections none find grace <br>
 In sight of Heaven, then wherefore hath God made
 The world which we inhabit? **Better plea**
 Love cannot have, than that in loving thee
