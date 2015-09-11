@@ -3,7 +3,7 @@ layout: post
 title:  "love's justification"
 date:   2015-9-11
 categories: blog
-author: yuna
+author: YVO
 excerpt: that breathes on earth the air of paradise...
 ---
 #YES!
