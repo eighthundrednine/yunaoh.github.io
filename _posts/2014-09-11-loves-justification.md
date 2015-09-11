@@ -10,15 +10,15 @@ excerpt: that breathes on earth the air of paradise...
 hope may with my strong desire keep pace, <br>
 And I be undeluded, unbetrayed: <br>
 For if of our affections none find grace <br>
-In sight of Heaven, then wherefore hath God made
-The world which we inhabit? **Better plea**
-Love cannot have, than that in loving thee
-Glory to that eternal peace is paid,
-Who such divinity to thee imparts
-As hallows and makes pure all gentle hearts.
-His hope is treacherous only whose love dies
-With beauty, which is varying every hour;
-But, in chaste hearts uninfluenced by the power
-Of outward change, there blooms a deathless flower,
-That breathes on earth the air of paradise.
+In sight of Heaven, then wherefore hath God made <br>
+The world which we inhabit? **Better plea** <br>
+Love cannot have, than that in loving thee <br>
+Glory to that eternal peace is paid, <br>
+Who such divinity to thee imparts <br>
+As hallows and makes pure all gentle hearts. <br>
+His hope is treacherous only whose love dies <br>
+With beauty, which is varying every hour; <br>
+But, in chaste hearts uninfluenced by the power <br>
+Of outward change, there blooms a deathless flower, <br>
+That breathes on earth the air of paradise. <br>
 Michelangelo
