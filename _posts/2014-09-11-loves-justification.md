@@ -6,9 +6,8 @@ categories: blog
 author: Yuna Oh
 excerpt: that breathes on earth the air of paradise...
 ---
-# The poem is below:
-
-YES! hope may with my strong desire keep pace,
+#YES!
+hope may with my strong desire keep pace,
 And I be undeluded, unbetrayed:
 For if of our affections none find grace
 In sight of Heaven, then wherefore hath God made
