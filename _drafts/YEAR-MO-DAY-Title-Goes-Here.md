@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Template!"
-date:   2014-04-20 
-categories: 
-image: IMAGEURL.jpg
+categories: blog
 author: Yuna Oh
-photographer: UNKNOWN
+image: cara.jpg
+photographer: Unknown
+title:  "This is a new post"
+date:   2015-09-11
 excerpt: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat.
 ---
 
