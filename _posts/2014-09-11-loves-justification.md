@@ -11,7 +11,7 @@ hope may with my strong desire keep pace, <br>
 And I be undeluded, unbetrayed: <br>
 For if of our affections none find grace <br>
 In sight of Heaven, then wherefore hath God made <br>
-The world which we inhabit? <span style="color: #556b2f;">**Better plea** </span><br>
+The world which we inhabit? <span style="color: #88976d;">**Better plea** </span><br>
 Love cannot have, than that in loving thee <br>
 Glory to that eternal peace is paid, <br>
 Who such divinity to thee imparts <br>
