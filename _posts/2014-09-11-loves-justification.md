@@ -7,12 +7,11 @@ author: YVO
 excerpt: that breathes on earth the air of paradise...
 ---
 #YES!
-<span style="color: #88976d;">
 hope may with my strong desire keep pace, <br>
 And I be undeluded, unbetrayed: <br>
 For if of our affections none find grace <br>
 In sight of Heaven, then wherefore hath God made <br>
-The world which we inhabit? **Better plea** <br>
+The world which we inhabit? <span style="color: #ff6f69;">**Better plea** </span><br>
 Love cannot have, than that in loving thee <br>
 Glory to that eternal peace is paid, <br>
 Who such divinity to thee imparts <br>
@@ -21,7 +20,7 @@ His hope is treacherous only whose love dies <br>
 With beauty, which is varying every hour; <br>
 But, in chaste hearts uninfluenced by the power <br>
 Of outward change, there blooms a deathless flower, <br>
-That breathes on earth the air of paradise. </span><br>
+That breathes on earth the air of paradise. <br>
 Michelangelo
 
 
