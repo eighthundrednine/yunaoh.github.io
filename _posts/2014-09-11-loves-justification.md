@@ -7,6 +7,7 @@ author: YVO
 excerpt: that breathes on earth the air of paradise...
 ---
 #YES!
+<span style="color: #88976d;">
 hope may with my strong desire keep pace, <br>
 And I be undeluded, unbetrayed: <br>
 For if of our affections none find grace <br>
@@ -20,7 +21,7 @@ His hope is treacherous only whose love dies <br>
 With beauty, which is varying every hour; <br>
 But, in chaste hearts uninfluenced by the power <br>
 Of outward change, there blooms a deathless flower, <br>
-<span style="color: #88976d;">That breathes on earth the air of paradise. </span><br>
+That breathes on earth the air of paradise. </span><br>
 Michelangelo
 
 
