@@ -9,7 +9,7 @@ excerpt: it starts here for me...
 #PERSONAL GOD STORY
 For a long time I've thought about whether or not I should or could post about my faith. I worried that it would color the rest of what I had to say in a weird religious gloss...blur all my crisp wit and poignant observations with the fuzziness of faith.
 
-The point of this blog is to highlight the things of love and of hope in this world; to make a case for the right things and to think about the wrong things; to consider if and when and how one should go about redeeming or reconciling or restoring, or minimally, thinking about the broken things of this world. 
+The point of this blog is to highlight the things of love and of hope in this world; to make a case for the right things and to think about the wrong things; to consider if and when and how one should go about redeeming or reconciling or restoring, or minimally, *really thinking* about the broken things of this world. 
 
 I'm still worried that there may be a blurring of things...a fuzzifying of things that are crystal clear to me. But my confession is that there is no other starting point: my personal god story. 
 
