@@ -4,7 +4,7 @@ title:  "the beginning"
 date:   2015-10-02
 categories: blog
 author: YVO
-excerpt: understanding reconciliation...
+excerpt: it starts here for me...
 ---
 #PERSONAL GOD STORY
 For a long time I've thought about whether or not I should or could post about my faith. I worried that it would color the rest of what I had to say in a weird religious gloss...blur all my crisp wit and poignant observations with the fuzziness of faith.
